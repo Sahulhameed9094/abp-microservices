@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Tasky.SaaSService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
+    <ProjectReference Include="..\Tasky.SaaSService.EntityFrameworkCore.Tests\Tasky.SaaSService.EntityFrameworkCore.Tests.csproj" />
+  </ItemGroup>
+
+</Project>
