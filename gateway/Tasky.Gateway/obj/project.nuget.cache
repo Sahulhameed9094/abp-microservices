@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JaJmzw8wBtJ+LL/R6ljRq4HFeVL9rbHAJeZ2icgS/MfEQXHTEmyx6AljlrFpruOdcm5ThlDxZ3z4O2JPrEEbbw==",
+  "dgSpecHash": "LKBJyG3NcDpPNGpfdhmfs32BWdcmHgdRrtpDl1NG/MmzR3GvSzeVbeY11QXQ7wvWrQWvuqYURtF6HWO0jr0XYA==",
   "success": true,
-  "projectFilePath": "D:\\abp-microservices\\gateway\\Tasky.Gateway\\Tasky.Gateway.csproj",
+  "projectFilePath": "D:\\Microservice\\abp-microservices\\gateway\\Tasky.Gateway\\Tasky.Gateway.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

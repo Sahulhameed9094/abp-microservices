@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\abp-microservices\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj": {}
+    "D:\\Microservice\\abp-microservices\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj": {}
   },
   "projects": {
-    "D:\\abp-microservices\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj": {
+    "D:\\Microservice\\abp-microservices\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\abp-microservices\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
+        "projectUniqueName": "D:\\Microservice\\abp-microservices\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
         "projectName": "Tasky.Shared.Hosting",
-        "projectPath": "D:\\abp-microservices\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
-        "packagesPath": "C:\\Users\\SahuHameed.s\\.nuget\\packages\\",
-        "outputPath": "D:\\abp-microservices\\shared\\Tasky.Shared.Hosting\\obj\\",
+        "projectPath": "D:\\Microservice\\abp-microservices\\shared\\Tasky.Shared.Hosting\\Tasky.Shared.Hosting.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\Microservice\\abp-microservices\\shared\\Tasky.Shared.Hosting\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SahuHameed.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +44,76 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.AspNetCore.Serilog": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.PostgreSql": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.EventBus.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.Http.Client.IdentityModel.Web": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.Identity.HttpApi.Client": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.Localization": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.MultiTenancy": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.Swashbuckle": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

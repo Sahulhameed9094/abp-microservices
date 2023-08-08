@@ -8,19 +8,26 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\SahuHameed.s\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\abp-microservices\\apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj",
+      "projectUniqueName": "D:\\Microservice\\abp-microservices\\apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj",
       "projectName": "Tasky.IdentityServer",
-      "projectPath": "D:\\abp-microservices\\apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj",
-      "packagesPath": "C:\\Users\\SahuHameed.s\\.nuget\\packages\\",
-      "outputPath": "D:\\abp-microservices\\apps\\Tasky.IdentityServer\\obj\\",
+      "projectPath": "D:\\Microservice\\abp-microservices\\apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\Microservice\\abp-microservices\\apps\\Tasky.IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\SahuHameed.s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

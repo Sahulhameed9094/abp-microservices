@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rm5i63az7MQp/fqpFnePgyQOiX+WK8du8kAlcgIVj7vXCQ6Adw6NAribNjtlkrQ26nEAyATPM9BYTNGrUZeAgQ==",
+  "dgSpecHash": "3SPt6V1PFcGti4Lh/zIfoKOVl3ErGte8qUoAbBqEZeu/sobLGXvqyKMD49mvChtXkCPytflYo3JS+9HOqJKWyw==",
   "success": true,
-  "projectFilePath": "D:\\abp-microservices\\shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj",
+  "projectFilePath": "D:\\Microservice\\abp-microservices\\shared\\Tasky.DbMigrator\\Tasky.DbMigrator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

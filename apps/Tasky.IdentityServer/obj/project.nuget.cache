@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6HqVuVKPfgUZXRJ3RBKs9tj9wfoMIigdgUkNhtcZkRwryaUZcdi6v3cibTBJW9zQrHXKTIhBvD/ZGSyRpdAMCw==",
+  "dgSpecHash": "WbZiAzQ8Hy5qj68uEv6Yz2jY6aK0F0pSzMP7F5jOngBTe1M86pftIfGvzXSdd83aGU8S6Ut9xIstT4t/4Og8Fg==",
   "success": true,
-  "projectFilePath": "D:\\abp-microservices\\apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj",
+  "projectFilePath": "D:\\Microservice\\abp-microservices\\apps\\Tasky.IdentityServer\\Tasky.IdentityServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

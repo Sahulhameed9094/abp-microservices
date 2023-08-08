@@ -1,0 +1,15 @@
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\bin\Debug\net7.0\Tasky.DbMigrator.exe
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\bin\Debug\net7.0\Tasky.DbMigrator.deps.json
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\bin\Debug\net7.0\Tasky.DbMigrator.runtimeconfig.json
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\bin\Debug\net7.0\Tasky.DbMigrator.dll
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\bin\Debug\net7.0\Tasky.DbMigrator.pdb
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\obj\Debug\net7.0\Tasky.DbMigrator.csproj.AssemblyReference.cache
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\obj\Debug\net7.0\Tasky.DbMigrator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\obj\Debug\net7.0\Tasky.DbMigrator.AssemblyInfoInputs.cache
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\obj\Debug\net7.0\Tasky.DbMigrator.AssemblyInfo.cs
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\obj\Debug\net7.0\Tasky.DbMigrator.csproj.CoreCompileInputs.cache
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\obj\Debug\net7.0\Tasky.DbMigrator.dll
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\obj\Debug\net7.0\refint\Tasky.DbMigrator.dll
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\obj\Debug\net7.0\Tasky.DbMigrator.pdb
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\obj\Debug\net7.0\Tasky.DbMigrator.genruntimeconfig.cache
+D:\Microservice\abp-microservices\shared\Tasky.DbMigrator\obj\Debug\net7.0\ref\Tasky.DbMigrator.dll
