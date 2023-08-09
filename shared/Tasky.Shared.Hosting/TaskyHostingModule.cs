@@ -33,10 +33,23 @@ namespace Tasky.Shared.Hosting
                 options.UseNpgsql();
             });
 
+
+            /*AbpMultiTenancyOptions is the main options class to enable/disable the multi-tenancy for your application. BY SAHUL*/
+            //https://docs.abp.io/en/abp/latest/Multi-Tenancy#multi-tenancy
             Configure<AbpMultiTenancyOptions>(options =>
             {
                 options.IsEnabled = true;
             });
+
+            //AbpDbConnectionOptions is the options class that is used to set the connection strings and configure database structures.
+            //https://docs.abp.io/en/abp/latest/Connection-Strings#configuring-the-database-structures BY SAHUL
+
+            /* "ConnectionStrings": {
+                     "Default": "Server=localhost;Database=MyMainDb;Trusted_Connection=True;",
+                     "AbpIdentity": "Server=localhost;Database=MySecondaryDb;Trusted_Connection=True;",
+                     "AbpIdentityServer": "Server=localhost;Database=MySecondaryDb;Trusted_Connection=True;",
+                     "AbpPermissionManagement": "Server=localhost;Database=MySecondaryDb;Trusted_Connection=True;"
+                    }*/
 
             Configure<AbpDbConnectionOptions>(options =>
             {
