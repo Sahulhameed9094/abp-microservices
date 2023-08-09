@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="7.3.2" />
     <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="7.3.2" />
     <PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="7.3.2" />
