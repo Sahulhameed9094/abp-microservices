@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.FeatureManagement;
 using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
+using Volo.Abp.PermissionManagement.HttpApi;
 
 namespace Tasky.AdministrationService;
 

@@ -33,7 +33,7 @@
     <ProjectReference Include="..\..\src\Tasky.IdentityService.HttpApi\Tasky.IdentityService.HttpApi.csproj" />
     <ProjectReference Include="..\..\src\Tasky.IdentityService.Application\Tasky.IdentityService.Application.csproj" />
     <ProjectReference Include="..\..\src\Tasky.IdentityService.EntityFrameworkCore\Tasky.IdentityService.EntityFrameworkCore.csproj" />
-    <ProjectReference Include="..\Tasky.IdentityService.Host.Shared\Tasky.IdentityService.Host.Shared.csproj" />
+    <!--<ProjectReference Include="..\Tasky.IdentityService.Host.Shared\Tasky.IdentityService.Host.Shared.csproj" />-->
   </ItemGroup>
 
   <ItemGroup>

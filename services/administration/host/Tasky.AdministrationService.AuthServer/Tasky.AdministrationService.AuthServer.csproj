@@ -48,7 +48,7 @@
     <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="7.3.1" />
     <PackageReference Include="Volo.Abp.TenantManagement.HttpApi" Version="7.3.1" />
     <ProjectReference Include="..\..\src\Tasky.AdministrationService.Application.Contracts\Tasky.AdministrationService.Application.Contracts.csproj" />
-    <ProjectReference Include="..\Tasky.AdministrationService.Host.Shared\Tasky.AdministrationService.Host.Shared.csproj" />
+    <!--<ProjectReference Include="..\Tasky.AdministrationService.Host.Shared\Tasky.AdministrationService.Host.Shared.csproj" />-->
   </ItemGroup>
 
   <ItemGroup>

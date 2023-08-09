@@ -17,7 +17,10 @@ D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\r
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Cors.dll
+D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.AspNetCore.DataProtection.dll
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.AspNetCore.Diagnostics.dll
@@ -112,6 +115,7 @@ D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\r
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.Extensions.Identity.Stores.dll
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.Extensions.Localization.dll
+D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.Extensions.Logging.Configuration.dll
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.Extensions.Logging.Console.dll
 D:\Microservice\abp-microservices\shared\Tasky.Shared.Hosting\bin\Debug\net7.0\refs\Microsoft.Extensions.Logging.Debug.dll
