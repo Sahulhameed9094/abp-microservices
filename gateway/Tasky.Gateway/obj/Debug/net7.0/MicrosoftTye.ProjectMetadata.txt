@@ -1,0 +1,21 @@
+AssemblyInformationalVersion:
+InformationalVersion: 1.0.0
+Version: 1.0.0
+TargetFrameworks:
+RunCommand: D:\Microservice\abp-microservices\gateway\Tasky.Gateway\bin\Debug\net7.0\Tasky.Gateway.exe
+RunArguments:
+TargetPath: D:\Microservice\abp-microservices\gateway\Tasky.Gateway\bin\Debug\net7.0\Tasky.Gateway.dll
+PublishDir: bin\Debug\net7.0\publish\
+AssemblyName: Tasky.Gateway
+IntermediateOutputPath: obj\Debug\net7.0\
+TargetFramework: net7.0
+_ShortFrameworkIdentifier:
+_ShortFrameworkVersion:
+_TargetFrameworkVersionWithoutV: 7.0
+FrameworkReference: Microsoft.NETCore.App;Microsoft.AspNetCore.App
+ContainerBaseImage:
+ContainerBaseTag:
+MicrosoftNETPlatformLibrary:
+_AspNetCoreAppSharedFxIsEnabled:
+UsingMicrosoftNETSdkWeb: true
+AzureFunctionsVersion:
