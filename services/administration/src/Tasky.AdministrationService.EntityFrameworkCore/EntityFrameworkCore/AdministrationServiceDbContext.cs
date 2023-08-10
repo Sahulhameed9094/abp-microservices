@@ -14,9 +14,9 @@ namespace Tasky.AdministrationService.EntityFrameworkCore;
 
 [ConnectionStringName(AdministrationServiceDbProperties.ConnectionStringName)]
 public class AdministrationServiceDbContext : AbpDbContext<AdministrationServiceDbContext>,
-    //IPermissionManagementDbContext,
+    IPermissionManagementDbContext,
     ISettingManagementDbContext,
-    //IFeatureManagementDbContext,
+    IFeatureManagementDbContext,
     IAuditLoggingDbContext,
     IAdministrationServiceDbContext
 {
@@ -33,6 +33,14 @@ public class AdministrationServiceDbContext : AbpDbContext<AdministrationService
     public DbSet<FeatureValue> FeatureValues { get; set; }
     public DbSet<PermissionGrant> PermissionGrants { get; set; }
     public DbSet<Setting> Settings { get; set; }
+
+    public DbSet<PermissionGroupDefinitionRecord> PermissionGroups { get; set; }
+
+    public DbSet<PermissionDefinitionRecord> Permissions { get; set; }
+
+    public DbSet<FeatureGroupDefinitionRecord> FeatureGroups { get; set; }
+
+    public DbSet<FeatureDefinitionRecord> Features { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

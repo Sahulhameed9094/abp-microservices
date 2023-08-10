@@ -21,20 +21,20 @@ public class AdministrationServiceEntityFrameworkCoreModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
-        //Configure<AbpDbContextOptions>(options =>
-        //{
-        //    options.UseNpgsql();
-        //});
+        Configure<AbpDbContextOptions>(options =>
+        {
+            options.UseNpgsql();
+        });
 
-        //AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         context.Services.AddAbpDbContext<AdministrationServiceDbContext>(options =>
         {
-            //options.ReplaceDbContext<IPermissionManagementDbContext>();
-            //options.ReplaceDbContext<ISettingManagementDbContext>();
-            //options.ReplaceDbContext<IFeatureManagementDbContext>();
-            //options.ReplaceDbContext<IAuditLoggingDbContext>();
+            options.ReplaceDbContext<IPermissionManagementDbContext>();
+            options.ReplaceDbContext<ISettingManagementDbContext>();
+            options.ReplaceDbContext<IFeatureManagementDbContext>();
+            options.ReplaceDbContext<IAuditLoggingDbContext>();
 
-            //options.AddDefaultRepositories(true);
+            options.AddDefaultRepositories(true);
         });
     }
 }
