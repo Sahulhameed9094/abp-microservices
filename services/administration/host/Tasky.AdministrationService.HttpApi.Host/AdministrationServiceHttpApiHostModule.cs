@@ -12,14 +12,8 @@ using System.Linq;
 using Tasky.AdministrationService.EntityFrameworkCore;
 using Tasky.Shared.Hosting;
 using Volo.Abp;
-using Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy;
-using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.Caching;
-using Volo.Abp.EntityFrameworkCore.SqlServer;
 using Volo.Abp.Modularity;
-using Volo.Abp.PermissionManagement.EntityFrameworkCore;
-using Volo.Abp.SettingManagement.EntityFrameworkCore;
-using Volo.Abp.TenantManagement.EntityFrameworkCore;
 
 namespace Tasky.AdministrationService;
 
@@ -27,17 +21,7 @@ namespace Tasky.AdministrationService;
     typeof(TaskyHostingModule),
     typeof(AdministrationServiceApplicationModule),
     typeof(AdministrationServiceEntityFrameworkCoreModule),
-    typeof(AdministrationServiceHttpApiModule),
-    typeof(AbpAspNetCoreMvcUiMultiTenancyModule),
-    //typeof(AbpAutofacModule),
-    //typeof(AbpCachingStackExchangeRedisModule),
-    typeof(AbpEntityFrameworkCoreSqlServerModule),
-    typeof(AbpAuditLoggingEntityFrameworkCoreModule),
-    typeof(AbpPermissionManagementEntityFrameworkCoreModule),
-    typeof(AbpSettingManagementEntityFrameworkCoreModule),
-    typeof(AbpTenantManagementEntityFrameworkCoreModule)
-    //typeof(AbpAspNetCoreSerilogModule),
-    //typeof(AbpSwashbuckleModule)
+    typeof(AdministrationServiceHttpApiModule)
     )]
 public class AdministrationServiceHttpApiHostModule : AbpModule
 {
