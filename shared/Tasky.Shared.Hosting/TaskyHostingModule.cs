@@ -47,7 +47,7 @@ namespace Tasky.Shared.Hosting
             /* "ConnectionStrings": {
                      "Default": "Server=localhost;Database=MyMainDb;Trusted_Connection=True;",
                      "AbpIdentity": "Server=localhost;Database=MySecondaryDb;Trusted_Connection=True;",
-                     "AbpIdentityServer": "Server=localhost;Database=MySecondaryDb;Trusted_Connection=True;",
+                     "AbpOpenIddict": "Server=localhost;Database=MySecondaryDb;Trusted_Connection=True;",
                      "AbpPermissionManagement": "Server=localhost;Database=MySecondaryDb;Trusted_Connection=True;"
                     }*/
 
@@ -70,7 +70,7 @@ namespace Tasky.Shared.Hosting
                 options.Databases.Configure("IdentityService", database =>
                 {
                     database.MappedConnections.Add("AbpIdentity");
-                    database.MappedConnections.Add("AbpIdentityServer");
+                    database.MappedConnections.Add("AbpOpenIddict");
                 });
             });
 
