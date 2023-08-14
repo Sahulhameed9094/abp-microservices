@@ -1,26 +1,33 @@
+using System;
 using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.EntityFrameworkCore;
-using Volo.Abp.Modularity;
 using Volo.Abp.Identity.EntityFrameworkCore;
-using Volo.Abp.IdentityServer.EntityFrameworkCore;
+using Volo.Abp.OpenIddict.EntityFrameworkCore;
+using Volo.Abp.Modularity;
 
 namespace Tasky.IdentityService.EntityFrameworkCore;
 
 [DependsOn(
     typeof(IdentityServiceDomainModule),
-    typeof(AbpEntityFrameworkCoreModule)
+    typeof(AbpEntityFrameworkCoreModule),
+    typeof(AbpIdentityEntityFrameworkCoreModule),
+    typeof(AbpOpenIddictEntityFrameworkCoreModule)
 )]
-[DependsOn(typeof(AbpIdentityEntityFrameworkCoreModule))]
-    [DependsOn(typeof(AbpIdentityServerEntityFrameworkCoreModule))]
-    public class IdentityServiceEntityFrameworkCoreModule : AbpModule
+public class IdentityServiceEntityFrameworkCoreModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
+        Configure<AbpDbContextOptions>(options =>
+        {
+            options.UseNpgsql();
+        });
+        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         context.Services.AddAbpDbContext<IdentityServiceDbContext>(options =>
         {
-                /* Add custom repositories here. Example:
-                 * options.AddRepository<Question, EfCoreQuestionRepository>();
-                 */
+            options.ReplaceDbContext<IIdentityDbContext>();
+            options.ReplaceDbContext<IOpenIddictDbContext>();
+
+            options.AddDefaultRepositories(true);
         });
     }
 }
