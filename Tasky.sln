@@ -109,6 +109,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasky.DbMigrator", "shared\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tasky.Shared.Hosting", "shared\Tasky.Shared.Hosting\Tasky.Shared.Hosting.csproj", "{BC353AC6-B0A3-4683-81F7-76DF60703080}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB0A1ECF-1F8E-4334-8E96-42A075B523BB}"
+	ProjectSection(SolutionItems) = preProject
+		tye.yaml = tye.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
