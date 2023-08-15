@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LKBJyG3NcDpPNGpfdhmfs32BWdcmHgdRrtpDl1NG/MmzR3GvSzeVbeY11QXQ7wvWrQWvuqYURtF6HWO0jr0XYA==",
+  "dgSpecHash": "C2GvuSWF8iFvmtqRz8Dei8OCb8qQKmh79A03T2TV367ektzFFOhvSvahzEM7XDmIjojY+MtZuo/4W33/sncKdg==",
   "success": true,
   "projectFilePath": "D:\\Microservice\\abp-microservices\\gateway\\Tasky.Gateway\\Tasky.Gateway.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.io.hashing\\7.0.0\\system.io.hashing.7.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\yarp.reverseproxy\\2.0.0\\yarp.reverseproxy.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -24,3 +24,6 @@ D:\Microservice\abp-microservices\gateway\Tasky.Gateway\obj\Debug\net7.0\refint\
 D:\Microservice\abp-microservices\gateway\Tasky.Gateway\obj\Debug\net7.0\Tasky.Gateway.pdb
 D:\Microservice\abp-microservices\gateway\Tasky.Gateway\obj\Debug\net7.0\Tasky.Gateway.genruntimeconfig.cache
 D:\Microservice\abp-microservices\gateway\Tasky.Gateway\obj\Debug\net7.0\ref\Tasky.Gateway.dll
+D:\Microservice\abp-microservices\gateway\Tasky.Gateway\bin\Debug\net7.0\System.IO.Hashing.dll
+D:\Microservice\abp-microservices\gateway\Tasky.Gateway\bin\Debug\net7.0\Yarp.ReverseProxy.dll
+D:\Microservice\abp-microservices\gateway\Tasky.Gateway\obj\Debug\net7.0\Tasky.Gateway.csproj.CopyComplete
