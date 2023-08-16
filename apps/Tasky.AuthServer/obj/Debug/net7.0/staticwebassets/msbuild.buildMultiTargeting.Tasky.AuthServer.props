@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Tasky.AuthServer.props" />
+</Project>
