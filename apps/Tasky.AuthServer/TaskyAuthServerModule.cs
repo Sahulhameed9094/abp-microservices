@@ -9,15 +9,10 @@ using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Tasky.EntityFrameworkCore;
-using Tasky.Localization;
-using Tasky.MultiTenancy;
 using StackExchange.Redis;
 using Volo.Abp;
 using Volo.Abp.Account;
 using Volo.Abp.Account.Web;
-using Volo.Abp.AspNetCore.Mvc.UI;
-using Volo.Abp.AspNetCore.Mvc.UI.Bootstrap;
 using Volo.Abp.AspNetCore.Mvc.UI.Bundling;
 using Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite;
 using Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.Bundling;
@@ -32,8 +27,11 @@ using Volo.Abp.DistributedLocking;
 using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Volo.Abp.UI.Navigation.Urls;
-using Volo.Abp.UI;
 using Volo.Abp.VirtualFileSystem;
+using Tasky.Shared.Hosting;
+using Tasky.SaaSService.EntityFrameworkCore;
+using Tasky.IdentityService.EntityFrameworkCore;
+using Tasky.AdministrationService.EntityFrameworkCore;
 
 namespace Tasky;
 
@@ -45,7 +43,10 @@ namespace Tasky;
     typeof(AbpAccountApplicationModule),
     typeof(AbpAccountHttpApiModule),
     typeof(AbpAspNetCoreMvcUiLeptonXLiteThemeModule),
-    typeof(TaskyEntityFrameworkCoreModule),
+    typeof(AdministrationServiceEntityFrameworkCoreModule),
+    typeof(IdentityServiceEntityFrameworkCoreModule),
+    typeof(SaaSServiceEntityFrameworkCoreModule),
+    typeof(TaskyHostingModule),
     typeof(AbpAspNetCoreSerilogModule)
     )]
 public class TaskyAuthServerModule : AbpModule
@@ -68,14 +69,7 @@ public class TaskyAuthServerModule : AbpModule
         var hostingEnvironment = context.Services.GetHostingEnvironment();
         var configuration = context.Services.GetConfiguration();
 
-        Configure<AbpLocalizationOptions>(options =>
-        {
-            options.Resources
-                .Get<TaskyResource>()
-                .AddBaseTypes(
-                    typeof(AbpUiResource)
-                );
-        });
+
 
         Configure<AbpBundlingOptions>(options =>
         {
@@ -90,18 +84,11 @@ public class TaskyAuthServerModule : AbpModule
 
         Configure<AbpAuditingOptions>(options =>
         {
-                //options.IsEnabledForGetRequests = true;
-                options.ApplicationName = "AuthServer";
+            //options.IsEnabledForGetRequests = true;
+            options.ApplicationName = "AuthServer";
         });
 
-        if (hostingEnvironment.IsDevelopment())
-        {
-            Configure<AbpVirtualFileSystemOptions>(options =>
-            {
-                options.FileSets.ReplaceEmbeddedByPhysical<TaskyDomainSharedModule>(Path.Combine(hostingEnvironment.ContentRootPath, $"..{Path.DirectorySeparatorChar}Tasky.Domain.Shared"));
-                options.FileSets.ReplaceEmbeddedByPhysical<TaskyDomainModule>(Path.Combine(hostingEnvironment.ContentRootPath, $"..{Path.DirectorySeparatorChar}Tasky.Domain"));
-            });
-        }
+
 
         Configure<AppUrlOptions>(options =>
         {
@@ -180,10 +167,7 @@ public class TaskyAuthServerModule : AbpModule
         app.UseAuthentication();
         app.UseAbpOpenIddictValidation();
 
-        if (MultiTenancyConsts.IsEnabled)
-        {
-            app.UseMultiTenancy();
-        }
+        app.UseMultiTenancy();
 
         app.UseUnitOfWork();
         app.UseAuthorization();

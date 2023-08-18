@@ -1,0 +1,21 @@
+AssemblyInformationalVersion:
+InformationalVersion: 1.1.3
+Version: 1.1.3
+TargetFrameworks:
+RunCommand: D:\Microservice\abp-microservices\apps\Tasky.AuthServer\bin\Debug\net7.0\Tasky.AuthServer.exe
+RunArguments:
+TargetPath: D:\Microservice\abp-microservices\apps\Tasky.AuthServer\bin\Debug\net7.0\Tasky.AuthServer.dll
+PublishDir: bin\Debug\net7.0\publish\
+AssemblyName: Tasky.AuthServer
+IntermediateOutputPath: obj\Debug\net7.0\
+TargetFramework: net7.0
+_ShortFrameworkIdentifier:
+_ShortFrameworkVersion:
+_TargetFrameworkVersionWithoutV: 7.0
+FrameworkReference: Microsoft.NETCore.App;Microsoft.AspNetCore.App
+ContainerBaseImage:
+ContainerBaseTag:
+MicrosoftNETPlatformLibrary:
+_AspNetCoreAppSharedFxIsEnabled:
+UsingMicrosoftNETSdkWeb: true
+AzureFunctionsVersion:
