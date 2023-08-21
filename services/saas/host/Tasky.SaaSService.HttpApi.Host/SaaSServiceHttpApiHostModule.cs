@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Tasky.AdministrationService.EntityFrameworkCore;
 using Tasky.SaaSService.EntityFrameworkCore;
 using Tasky.Shared.Hosting;
 using Volo.Abp;
@@ -26,7 +27,8 @@ namespace Tasky.SaaSService;
     typeof(TaskyHostingModule),
     typeof(SaaSServiceApplicationModule),
     typeof(SaaSServiceEntityFrameworkCoreModule),
-    typeof(SaaSServiceHttpApiModule)
+    typeof(SaaSServiceHttpApiModule),
+    typeof(AdministrationServiceEntityFrameworkCoreModule) //added for future management by sahul
 )]
 public class SaaSServiceHttpApiHostModule : AbpModule
 {
