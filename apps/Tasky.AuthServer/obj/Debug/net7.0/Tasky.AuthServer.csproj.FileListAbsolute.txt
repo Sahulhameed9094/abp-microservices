@@ -1113,3 +1113,4 @@ D:\Microservice\abp-microservices\apps\Tasky.AuthServer\obj\Debug\net7.0\refint\
 D:\Microservice\abp-microservices\apps\Tasky.AuthServer\obj\Debug\net7.0\Tasky.AuthServer.pdb
 D:\Microservice\abp-microservices\apps\Tasky.AuthServer\obj\Debug\net7.0\Tasky.AuthServer.genruntimeconfig.cache
 D:\Microservice\abp-microservices\apps\Tasky.AuthServer\obj\Debug\net7.0\ref\Tasky.AuthServer.dll
+D:\Microservice\abp-microservices\apps\Tasky.AuthServer\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.dll

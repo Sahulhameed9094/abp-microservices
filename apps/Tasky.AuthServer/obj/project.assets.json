@@ -3016,6 +3016,35 @@
           }
         }
       },
+      "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic/7.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.2",
+          "Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared": "7.3.2"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.abppkg.analyze.json": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.abppkg.json": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite/2.3.2": {
         "type": "package",
         "dependencies": {
@@ -10308,6 +10337,25 @@
         "volo.abp.aspnetcore.mvc.ui.packages.nuspec"
       ]
     },
+    "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic/7.3.2": {
+      "sha512": "xpsLMw8WwaLyiceV449z4mZ0Wpb9Sa1M4rK+wFSXLO+ErUJIVRZMuS9fo8lV9HtUziCMIECX/RVwCpbjCJKSrA==",
+      "type": "package",
+      "path": "volo.abp.aspnetcore.mvc.ui.theme.basic/7.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.abppkg.analyze.json",
+        "content/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.abppkg.json",
+        "contentFiles/any/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.abppkg.analyze.json",
+        "contentFiles/any/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.abppkg.json",
+        "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.dll",
+        "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.pdb",
+        "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.xml",
+        "volo.abp.aspnetcore.mvc.ui.theme.basic.7.3.2.nupkg.sha512",
+        "volo.abp.aspnetcore.mvc.ui.theme.basic.nuspec"
+      ]
+    },
     "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite/2.3.2": {
       "sha512": "dEYipqE24XQ0JiM10fS0gUhw8CiGOXsippzszUATz096d3nMWkulm5/1+R8Esrf6icC04NJNQ6OxuIKzgVBZUg==",
       "type": "package",
@@ -12573,6 +12621,7 @@
       "Volo.Abp.Account.Application >= 7.3.2",
       "Volo.Abp.Account.HttpApi >= 7.3.2",
       "Volo.Abp.Account.Web.OpenIddict >= 7.3.2",
+      "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic >= 7.3.2",
       "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite >= 2.3.*-*",
       "Volo.Abp.AspNetCore.Serilog >= 7.3.2",
       "Volo.Abp.Autofac >= 7.3.2",
@@ -12664,6 +12713,10 @@
             "version": "[7.3.2, )"
           },
           "Volo.Abp.Account.Web.OpenIddict": {
+            "target": "Package",
+            "version": "[7.3.2, )"
+          },
+          "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic": {
             "target": "Package",
             "version": "[7.3.2, )"
           },

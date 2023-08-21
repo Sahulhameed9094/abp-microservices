@@ -46,6 +46,7 @@
           "Volo.Abp.Account.Application": "7.3.2",
           "Volo.Abp.Account.HttpApi": "7.3.2",
           "Volo.Abp.Account.Web.OpenIddict": "7.3.2",
+          "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic": "7.3.2",
           "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite": "2.3.2",
           "Volo.Abp.AspNetCore.Serilog": "7.3.2",
           "Volo.Abp.Autofac": "7.3.2",
@@ -2166,6 +2167,21 @@
         },
         "compile": {
           "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Packages.dll": {}
+        }
+      },
+      "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic/7.3.2": {
+        "dependencies": {
+          "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.2",
+          "Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared": "7.3.2"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.dll": {
+            "assemblyVersion": "7.3.2.0",
+            "fileVersion": "7.3.2.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.dll": {}
         }
       },
       "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite/2.3.2": {
@@ -6954,6 +6970,13 @@
       "sha512": "sha512-Oaf2FA3pUerUuDuk4fhg604Ae2VsR/wnBYYsCT+AOJ7O52KBOgsD24Ri7quHpsEXr8vzzJkc9GIMD9VIUb6sCg==",
       "path": "volo.abp.aspnetcore.mvc.ui.packages/7.3.2",
       "hashPath": "volo.abp.aspnetcore.mvc.ui.packages.7.3.2.nupkg.sha512"
+    },
+    "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic/7.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xpsLMw8WwaLyiceV449z4mZ0Wpb9Sa1M4rK+wFSXLO+ErUJIVRZMuS9fo8lV9HtUziCMIECX/RVwCpbjCJKSrA==",
+      "path": "volo.abp.aspnetcore.mvc.ui.theme.basic/7.3.2",
+      "hashPath": "volo.abp.aspnetcore.mvc.ui.theme.basic.7.3.2.nupkg.sha512"
     },
     "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite/2.3.2": {
       "type": "package",

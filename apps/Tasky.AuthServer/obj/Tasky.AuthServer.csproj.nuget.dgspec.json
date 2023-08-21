@@ -86,6 +86,10 @@
               "target": "Package",
               "version": "[7.3.2, )"
             },
+            "Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
             "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite": {
               "target": "Package",
               "version": "[2.3.*-*, )"

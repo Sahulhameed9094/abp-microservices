@@ -32,6 +32,7 @@ using Tasky.Shared.Hosting;
 using Tasky.SaaSService.EntityFrameworkCore;
 using Tasky.IdentityService.EntityFrameworkCore;
 using Tasky.AdministrationService.EntityFrameworkCore;
+using Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic;
 
 namespace Tasky;
 
@@ -42,6 +43,7 @@ namespace Tasky;
     typeof(AbpAccountWebOpenIddictModule),
     typeof(AbpAccountApplicationModule),
     typeof(AbpAccountHttpApiModule),
+    typeof(AbpAspNetCoreMvcUiBasicThemeModule),
     typeof(AbpAspNetCoreMvcUiLeptonXLiteThemeModule),
     typeof(AdministrationServiceEntityFrameworkCoreModule),
     typeof(IdentityServiceEntityFrameworkCoreModule),
